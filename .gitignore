@@ -27,10 +27,8 @@
 
 .classpath
 .DS_Store
-.env
 .envrc
 .java-version
-.vscode
 .loadpath
 .metadata
 .openzeppelin
@@ -44,7 +42,6 @@
 .vertx
 .run/**.run.xml
 .gocache
-.vscode
 .idea
 .ipynb_checkpoints
 
@@ -145,3 +142,4 @@ __pycache__/
 !prover/**/utils/profiling
 !prover/**/verifying_key.bin
 !/sdk/src/lib/compressor/bin
+config.bat
