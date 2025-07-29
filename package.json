@@ -3,7 +3,7 @@
   "license": "(MIT OR Apache-2.0)",
   "author": "Consensys Software Inc.",
   "scripts": {
-    "build": "pnpm run -r --if-present build",
+    "build": "node init && pnpm run -r --if-present build",
     "clean": "pnpm run -r --if-present clean && rm -rf node_modules",
     "preinstall": "npx only-allow pnpm",
     "lint:fix": "pnpm run -r --if-present lint:fix",

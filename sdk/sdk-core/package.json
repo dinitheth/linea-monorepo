@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "build": "tsup --tsconfig tsconfig.build.json",
+    "build": "node init && tsup --tsconfig tsconfig.build.json",
     "test": "npx jest --bail --detectOpenHandles",
     "lint:ts": "npx eslint '**/*.ts'",
     "lint:ts:fix": "npx eslint --fix '**/*.ts'",

@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "postbuild": "bash ./src/scripts/build.sh",
-    "build": "tsup --tsconfig tsconfig.build.json",
+    "build": "node init && tsup --tsconfig tsconfig.build.json",
     "clean": "rimraf dist build coverage node_modules",
     "test": "jest --bail --detectOpenHandles --forceExit && jest-it-up",
     "lint:ts": "npx eslint '**/*.ts'",
